@@ -7,10 +7,15 @@
 .hero {
     height: 100vh;
     width: 100%;
+
+    background-image: url("Background1.jpg");
+
+    min-height: 500px;
+
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: linear-gradient(0deg, hsla(230, 41%, 15%, 1) 0%, hsla(10, 38%, 46%, 1) 100%);
 }
 nav{
     display: flex;
@@ -21,18 +26,28 @@ nav{
     padding-right: 3%;
 }
 .logo {
-    color: #3A405A;
-    font-size: 35px;
+    color: #f7d3c5;
+    font-size: 150px;
     letter-spacing: 2px;
     cursor: pointer;
+    padding-top: 6%;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
 }
 colourDetail1 {
-    color: #411b63;
+    color: #e2925d;
+    font-size: 10px;
+    font-family: cursive;
+    font-style: italic;
 }
 colourDetail2 {
-    color: #AEC5EB;
-    border: 15px #AEC5EB;
+    color: #df8e8e;
+    border: 15px #eb9775;
     border-radius: 15px;
+    font-size: 10px;
+    font-family: cursive;
+    font-style: italic;
 }
 
 nav ul li{
@@ -57,7 +72,7 @@ nav ul li a {
     }
 
 .textButton {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjNYRZoH_RLDzztWTanKzNcVQG8ErDkqBXjw&usqp=CAU");
+    background-image: url("Background1.jpg");
     color: #F9DEC9;
     text-decoration: none;
     border: 2px solid transparent;
@@ -111,22 +126,32 @@ h2 {
     color: white;
     margin: 20px;
     font-size: 25px;
+    position: absolute;
 }
 
 .fillerImage {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     border-radius: 30px;
 }
 
 .fillerContent {
     width: 100%;
     padding: 50px 0px 0px;
-    background-color: #161B34;
+
+    background-image: url("Background2.jpg");
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .about{
     width: 550px;
+    font-size: 150%;
 }
 
 .main{
@@ -138,11 +163,40 @@ h2 {
     justify-content: space-around;
 }
 
+.about2{
+    width: 550px;
+    font-size: 150%;
+}
+
+.coffeePage{
+    width: 100%;
+    padding: 50px 0px 0px;
+
+    background-image: url("Background3.jpg");
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fillerImage2{
+    width: 60%;
+    height: 60%;
+    border-radius: 30px;
+    float:center;
+
+}
+
 p{
     color:white;
     font-weight:500;
     font-size: 100%;
     margin: 35px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Dropdown Button */
